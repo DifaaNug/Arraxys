@@ -111,6 +111,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Fantasy RTS/Building/83f411c333fc6bd1ff94e45df3ae16ab8eb75c3fca37c936af82cbe94f02d7d6_Wonder Second Age Level 1.glb",
           "name": "Wonder Second Age Level 1.glb"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Steel Sword 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Steel Sword 21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Weapons/Steel Weapon/Sword/4bc7affa7ebd37c5338b964ed1a99e7bc73c9095a668287da84b87a0e9ae9721_Steel Sword 21.png",
+          "name": "Steel Sword 21.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -179,6 +192,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SteelSword21",
+          "persistentUuid": "28d66aa4-2d41-42ee-bb32-a54b3d208c87",
+          "width": 0,
+          "x": 1072,
+          "y": 232,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -225,6 +254,66 @@
             "width": 175,
             "animations": []
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "34fa38233a5d461106918ea13391ad4e3742ebf927d424cafbbbfb3d737867b9",
+          "name": "SteelSword21",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Steel Sword 21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -232,6 +321,9 @@
         "children": [
           {
             "objectName": "Building2Small"
+          },
+          {
+            "objectName": "SteelSword21"
           },
           {
             "objectName": "WonderSecondAgeLevel1"
